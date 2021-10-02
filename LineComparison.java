@@ -46,9 +46,19 @@ public class LineComparison {
 	if(chk==true)
 		System.out.println("these two lines are equal");
    	else
-		 System.out.println("these two lines are NOT equal");
+		System.out.println("these two lines are NOT equal");
 
+//cheking line 1 is greater lesser or eqal to 2nd line
+	int compare=length1new.compareTo(length2new);
+        if(compare<0) {
+                System.out.println("line is lesser than other line ");
 	}
+        else if(compare>0) {
+                System.out.println("line is greater than other line ");
+        }
+         else if(compare==0) {
+                System.out.println("line is equal to other line ");
+         }
+    }
 
 }
-
